@@ -3,7 +3,7 @@ import { FaTicketAlt, FaFacebook, FaTwitter, FaInstagram, FaGithub } from "react
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/5 bg-slate-950/80 pt-16 pb-12 mt-auto">
+    <footer className="border-t border-white/5 bg-slate-950/90 pt-16 pb-12 mt-auto">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
         <div className="space-y-4">
           <Link href="/" className="flex items-center gap-2">

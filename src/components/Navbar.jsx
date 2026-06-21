@@ -9,6 +9,7 @@ import { FaTicketAlt, FaUser, FaSignOutAlt, FaThLarge } from "react-icons/fa";
 import Logo from "./Logo";
 import Image from "next/image";
 
+
 export default function Navbar() {
   const pathname = usePathname();
   const [isLoggedIn, setIsLoggedIn] = useState(true);
@@ -41,7 +42,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-white/5 bg-slate-950/65 backdrop-blur-md py-3.5 px-6">
+    <nav className="sticky top-0 z-50 w-full border-b border-white/5 bg-slate-950/90 backdrop-blur-md py-3.5 px-6">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* LOGO */}
         <Logo />
@@ -97,9 +98,10 @@ export default function Navbar() {
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 className="flex items-center transition-transform hover:scale-105 outline-none focus:outline-none cursor-pointer"
               >
-                <img
-                  className="w-9 h-9 rounded-full object-cover border border-pink-500 shadow-md shadow-pink-500/10"
+                <Image  className ="w-9 h-9 rounded-full object-cover border border-pink-500 shadow-md shadow-pink-500/10"
                   src={mockUser.image}
+                  width={40}
+                  height={40}
                   alt="avatar"
                 />
               </button>
