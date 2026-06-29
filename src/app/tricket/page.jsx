@@ -13,7 +13,7 @@ const TricketPage = ({id}) => {
   const [sort, setSort] = useState("");
 
   useEffect(() => {
-    let url = `http://localhost:8000/tricket?`;
+    let url = process.env.NEXT_PUBLIC_API_URL;
 
     if (from) url += `from=${from}&`;
     if (to) url += `to=${to}&`;

@@ -15,7 +15,7 @@ const TricketDetailsPage = () => {
     const getTicket = async () => {
       try {
         const res = await fetch(
-          `http://localhost:8000/tricket/${id}`
+          `https://ticketverceserver.vercel.app/tricket/${id}`
         );
 
         const data = await res.json();
