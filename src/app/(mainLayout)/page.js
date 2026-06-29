@@ -6,9 +6,9 @@ import WhyChoose from "@/components/WhyChoose";
 
 export default function Home() {
   const stats = {
-    totalEvents: 50,
-    totalAttendees: 50000,
-    totalOrgs : 10 
+    totalVendor: 50,
+    totalUser: 50000,
+    totalAdmin : 10 
   }
   return (
     <div className=" border-b p-4 border-white bg-slate-950">

@@ -39,7 +39,7 @@ export default function WhyChoose() {
           </div>
           <h3 className="text-xl font-bold text-white mb-3">Organizer Analytics</h3>
           <p className="text-slate-400 text-sm leading-relaxed">
-            Organizers receive dedicated dashboards containing detailed tables of attendees, ticket sales tracking, and real-time revenue stats.
+            User receive dedicated dashboards containing detailed tables of attendees, ticket sales tracking, and real-time revenue stats.
           </p>
         </div>
       </div>
